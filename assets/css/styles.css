@@ -14,13 +14,13 @@
         Teal: hsl(188, 32%, 44%)
         Burgundy: hsl(350, 56%, 50%)
   */
-  --first-hue: 350;
-  --sat: 56%;
-  --lig: 50%;
+  --first-hue: 188;
+  --sat: 32%;
+  --lig: 44%;
   --second-hue: 219;
 
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 46%); /* -4% */
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 40%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
