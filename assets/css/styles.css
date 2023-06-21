@@ -12,10 +12,11 @@
         Blue: hsl(216, 100%, 50%)
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(188, 32%, 44%)
+        Burgundy: hsl(359, 94%, 32%)
   */
-  --first-hue: 38;
-  --sat: 99%;
-  --lig: 50%;
+  --first-hue: 359;
+  --sat: 32%;
+  --lig: 46%;
   --second-hue: 219;
 
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
