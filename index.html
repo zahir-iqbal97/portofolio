@@ -1,667 +1,739 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M4V25ST');</script>
-<!-- End Google Tag Manager -->
+<html lang="en">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M4V25ST');</script>
+    <!-- End Google Tag Manager -->
 
-        <!--=============== BOXICONS ===============-->
-        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E1MRGXE9PX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-  gtag('config', 'G-E1MRGXE9PX');
-</script>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title> Welcome to Zahir's Website </title>
-    </head>
-    <body>
-        <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4V25ST"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-        <!--=============== HEADER ===============-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Zahir</a>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E1MRGXE9PX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-                <div class="nav__menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class='bx bx-home-alt nav__icon'></i>
-                            </a>
-                        </li>
+        gtag('config', 'G-E1MRGXE9PX');
+    </script>
 
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class='bx bx-user nav__icon' ></i>
-                            </a>
-                        </li>
+    <title> Welcome to Zahir's Website </title>
+</head>
 
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class='bx bx-book nav__icon' ></i>
-                            </a>
-                        </li>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4V25ST" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Zahir</a>
 
-                        <li class="nav__item">
-                            <a href="#work" class="nav__link">
-                                <i class='bx bx-briefcase-alt-2 nav__icon' ></i>
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class='bx bx-message-square-detail nav__icon'></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Theme change button -->
-                <i class='bx bx-moon change-theme' id="theme-button"></i>
-            </nav>
-        </header>
-
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <!--=============== HOME ===============-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__data">
-                        <span class="home__greeting">Hello, I'm</span>
-                        <h1 class="home__name">Zahir Iqbal</h1>
-                        <h3 class="home__education"> Marketing Specialist </h3>
-
-                        <div class="home__buttons">
-                            <!-- Insert your CV -->
-                            <a download="" href="assets/pdf/Zahir-CV.pdf" class="button button--ghost">
-                                Download CV
-                            </a>
-                            <a href="#about" class="button">About me</a>
-                        </div>
-                    </div>
-
-                    <div class="home__handle">
-                        <!-- Insert your image, according to the example size of the portfolio -->
-                        <img src="assets/img/perfil.png" alt="" class="home__img">
-                    </div>
-
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
-                            <i class='bx bxl-linkedin-square'></i>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt nav__icon'></i>
                         </a>
-                        <a href="https://github.com/" target="_blank" class="home__social-link">
-                            <i class='bx bxl-github' ></i>
-                        </a>
-                        <a href="https://dribbble.com/" target="_blank" class="home__social-link">
-                            <i class='bx bxl-dribbble' ></i>
-                        </a>
-                    </div>
-
-                    <a href="#about" class="home__scroll">
-                        <i class='bx bx-mouse home__scroll-icon' ></i>
-                        <span class="home__scroll-name">Scroll Down</span>
-                    </a>
-                </div>
-            </section>
-
-            <!--=============== ABOUT ===============-->
-            <section class="about section" id="about">
-                <span class="section__subtitle">My Intro</span>
-                <h2 class="section__title">About Me</h2>
-
-                <div class="about__container container grid">
-                    <img src="assets/img/about.jpg" alt="" class="about__img">
-
-                    <div class="about__data">
-                        <div class="about__info">
-                            <div class="about__box">
-                                <i class='bx bx-award about__icon'></i>
-                                <h3 class="about__title">Experience</h3>
-                                <span class="about__subtitle">3 Years Working</span>
-                            </div>
-
-                            <div class="about__box">
-                                <i class='bx bx-briefcase-alt about__icon' ></i>
-                                <h3 class="about__title">Completed</h3>
-                                <span class="about__subtitle">20 + Projects</span>
-                            </div>
-
-                            <div class="about__box">
-                                <i class='bx bx-support about__icon' ></i>
-                                <h3 class="about__title">Support</h3>
-                                <span class="about__subtitle">Online 24/7</span>
-                            </div>
-                        </div>
-
-                        <p class="about__description">
-                            Marketing Specialist, I help and support clients with with digital marketing,
-                            I have 3 years of experience and many clients are happy with
-                            the work carried out for them.
-                        </p>
-
-                        <a href="#contact" class="button">Contact Me</a>
-                    </div>
-                </div>
-            </section>
-
-            <!--=============== SKILLS ===============-->
-            <section class="skills section" id="skills">
-                <span class="section__subtitle">My abilities</span>
-                <h2 class="section__title">My Experience</h2>
-
-                <div class="skills__container container grid">
-                    <div class="skills__content">
-                        <h3 class="skills__title">Performance Marketing</h3>
-
-                        <div class="skills__box">
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Adjust</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Data Analytics</h3>
-                                        <span class="skills__level">Advanced</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Clarisight</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">CRO</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Content Marketing</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Social Media</h3>
-                                        <span class="skills__level">Advanced</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skills__content">
-                        <h3 class="skills__title">Project Management</h3>
-
-                        <div class="skills__box">
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">E-commerce Merchandising</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name"> Negotiation </h3>
-                                        <span class="skills__level">Advanced</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name"> Conflict Resolution</h3>
-                                        <span class="skills__level"> Advanced</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">SQL</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Leading teams</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--=============== SERVICES ===============-->
-            <section class="services section">
-                <span class="section__subtitle">My Services</span>
-                <h2 class="section__title">What I Offer</h2>
-
-                <div class="services__container container grid">
-                    <div class="services__card">
-                        <h3 class="services__title">Digital <br> Marketing</h3>
-
-                        <span class="services__button">
-                            See more <i class='bx bx-right-arrow-alt services__icon'></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <i class='bx bx-x services__modal-close'></i>
-
-                                <h3 class="services__modal-title">Digital Marketing</h3>
-                                <p class="services__modal-description">
-                                    Social Media Management Service with more than 3 years of experience.
-                                    Providing quality posts and content on social media to clients and companies.
-                                </p>
-
-                                <ul class="services__modal-list">
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            I help your business reach to millions of users on internet.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            Performance Marketing.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            I ensure your digital marketing needs cover the whole buyer journey .
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            I digitally position your company brand in the region or specific market effectively .
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            Paid ads services tailored and personalized towards your business needs.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services__card">
-                        <h3 class="services__title">Project<br> Management</h3>
-
-                        <span class="services__button">
-                            See more <i class='bx bx-right-arrow-alt services__icon'></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <i class='bx bx-x services__modal-close'></i>
-
-                                <h3 class="services__modal-title">Digital SME Management</h3>
-                                <p class="services__modal-description">
-                                    Service with more than 3 years of experience.
-                                    Providing quality work to clients and companies.
-                                </p>
-
-                                <ul class="services__modal-list">
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            Guiding you through tools for digital HR management system.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            Supporting you with migration and implementation of CRM tools.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            Help your business with KPI defining, and result tracker.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            Implement Digital Tools for effective Performance Management.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            CMS management for your company.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services__card">
-                        <h3 class="services__title"> Creative <br> Services </h3>
-
-                        <span class="services__button">
-                            See more <i class='bx bx-right-arrow-alt services__icon'></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <i class='bx bx-x services__modal-close'></i>
-
-                                <h3 class="services__modal-title">Creative Content Creator</h3>
-                                <p class="services__modal-description">
-                                    Service with more than 3 years of experience.
-                                    Providing quality work to clients and companies.
-                                </p>
-
-                                <ul class="services__modal-list">
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            I develop the digital creative content for your company.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            Engage with users actively and understand their taste to personalize.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            Appealing content writing and visuals.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            Ensure your brand communcates to a large variety of users.
-                                        </p>
-                                    </li>
-
-                                    <li class="services__modal-item">
-                                        <i class='bx bx-check services__modal-icon' ></i>
-                                        <p class="services__modal-info">
-                                            Help your business acquire and retain customers.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--=============== WORK ===============-->
-            <section class="work section" id="work">
-                <span class="section__subtitle">My Portfolio</span>
-                <h2 class="section__title">Recent Works</h2>
-
-                <div class="work__filters">
-                    <span class="work__item" data-filter='.web'>Projects</span>
-                </div>
-
-                <div class="work__container container grid">
-                    <div class="work__card mix web">
-                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
-                        <img src="assets/img/work1.png" alt="" class="work__img">
-
-                        <h3 class="work__title">Burgeroo</h3>
-
-                        <a href="https://zahir-iqbal97.github.io/Portfolio-1/" class="work__button">
-                            Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
-                        </a>
-                    </div>
-
-                    <div class="work__card mix web">
-                        <img src="assets/img/work4.png" alt="" class="work__img">
-
-                        <h3 class="work__title">Netflix Clone</h3>
-
-                        <a href="https://zahir-iqbal97.github.io/netflix-build-youtube2/" class="work__button">
-                            Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
-                        </a>
-                    </div>
-
-                </div>
-            </section>
-
-            <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
-                <span class="section__subtitle">My clients say</span>
-                <h2 class="section__title">Testimonial</h2>
-
-                <div class="testimonial__container container swiper">
-                    <div class="swiper-wrapper">
-                        <div class="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
-
-                            <h3 class="testimonial__name">Abdul Moiz</h3>
-                            <p class="testimonial__description">
-                                Zahir has been an outstanding member of our team at noon Food. His set of highly skilled analytics and ideas have brought on big success and changes to the team. He is one that can be constantly relied on with great leadership skills. Zahir has a bright future ahead of him and will make big footprints in the market further ahead. I would highly recommend zahir for any team looking for a great leader out there.
-                            </p>
-                        </div>
-
-                        <div class="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
-
-                            <h3 class="testimonial__name">Abdel Rahman</h3>
-                            <p class="testimonial__description">
-                              Zahir was a pleasure to work with during my internship at Noon. He was always willing to share information and provide support when needed. Zahir is an energetic professional who diligently pursues the best results for both his client and the company. He was a great contact when I need information about field related topics. Zahir is a self driven and motivated business development representative. He is focused on customers needs, very reliable and organized approach to maintain territory result.
-                            </p>
-                        </div>
-
-                        <div class="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
-
-                            <h3 class="testimonial__name"> Ameera Khalid</h3>
-                            <p class="testimonial__description">
-                                Zahir is one of the most dedicated people whom I’ve worked with. He has full ownership of any projects that he handles. Always coming up with endless initiatives to enhance process and team performance based on data capturing and analysis. Excel/Data guru of the team. Always a thinker, never just a doer. Goes the extra mile to build rapport and statisfaction with our partners. He is a relentless passionate learner! You will always find him constantly networking with all departments across the company to gain more knowledge and grow! A great addition to any team; always adding new perspective and managing various responsibilities all at once!.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section>
-
-            <!--=============== CONTACT ===============-->
-            <section class="contact section" id="contact">
-                <span class="section__subtitle">Get in touch</span>
-                <h2 class="section__title">Contact Me</h2>
-
-                <div class="contact__container container grid">
-                    <div class="contact__content">
-                        <h3 class="contact__title">Talk to me</h3>
-
-                        <div class="contact__info">
-                            <div class="contact__card">
-                                <i class='bx bx-mail-send contact__card-icon'></i>
-                                <h3 class="contact__card-title">Email</h3>
-                                <span class="contact__card-data">zahir.mohdiqbal@gmail.com</span>
-
-                                <!-- Insert your original email -->
-                                <a href="mailto:zahir.mohdiqbal@gmail.com" target="_blank" class="contact__button">
-                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
-                                </a>
-                            </div>
-
-                            <div class="contact__card">
-                                <i class='bx bxl-whatsapp contact__card-icon' ></i>
-                                <h3 class="contact__card-title">Whatsapp</h3>
-                                <span class="contact__card-data">+971-56-8361237</span>
-
-                                <!-- Insert a real number plus country code -->
-                                <a href="https://api.whatsapp.com/send?phone=+971568361237&text=Hello, more information!" target="_blank" class="contact__button">
-                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
-                                </a>
-                            </div>
-
-                            <div class="contact__card">
-                                <i class='bx bxl-messenger contact__card-icon' ></i>
-                                <h3 class="contact__card-title">Messenger</h3>
-                                <span class="contact__card-data">user.fb123</span>
-
-                                <!-- Insert your brand name or profile -->
-                                <a href="https://m.me/zahir" target="_blank" class="contact__button">
-                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="contact__content">
-                        <h3 class="contact__title">Write me your project</h3>
-
-                        <form action="" class="contact__form">
-                            <div class="contact__form-div">
-                                <label class="contact__form-tag">Names</label>
-                                <input type="text" placeholder="Insert your name" class="contact__form-input">
-                            </div>
-
-                            <div class="contact__form-div">
-                                <label class="contact__form-tag">Mail</label>
-                                <input type="email" placeholder="Insert your email" class="contact__form-input">
-                            </div>
-
-                            <div class="contact__form-div contact__form-area">
-                                <label class="contact__form-tag">Project</label>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
-                            </div>
-
-                            <button class="button">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!--=============== FOOTER ===============-->
-        <footer class="footer">
-            <div class="footer__container container">
-                <h1 class="footer__title">Zahir</h1>
-
-                <ul class="footer__list">
-                    <li>
-                        <a href="#about" class="footer__link">About</a>
                     </li>
-                    <li>
-                        <a href="#work" class="footer__link">Projects</a>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>
+                        </a>
                     </li>
-                    <li>
-                        <a href="#testimonial" class="footer__link">Testimonials</a>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2 nav__icon'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail nav__icon'></i>
+                        </a>
                     </li>
                 </ul>
-
-                <ul class="footer__social">
-                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-facebook'></i>
-                    </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-instagram' ></i>
-                    </a>
-                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-twitter' ></i>
-                    </a>
-                </ul>
-
-                <span class="footer__copy">
-                    &#169; Bedimcode. All rigths reserved
-                </span>
             </div>
-        </footer>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
 
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Zahir Iqbal</h1>
+                    <h3 class="home__education"> Digital Growth Hacker </h3>
 
-        <!--=============== MIXITUP FILTER ===============-->
-        <script src="assets/js/mixitup.min.js"></script>
+                    <div class="home__buttons">
+                        <!-- Insert your CV -->
+                        <a download="" href="assets/pdf/Zahir-CV.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+                        <a href="#about" class="button">About me</a>
+                    </div>
+                </div>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                <div class="home__handle">
+                    <!-- Insert your image, according to the example size of the portfolio -->
+                    <img src="assets/img/perfil.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://dribbble.com/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-dribbble'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">+4 Years in <br> E-commerce & Tech</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Education</h3>
+                            <span class="about__subtitle">American University of Sharjah <br> Major: Finance/Minor:
+                                MIS </span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Location</h3>
+                            <span class="about__subtitle">Dubai <br>United Arab Emirates</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Digital Marketing Specialist and Growth Hacker. I bring unique perspective to problem solving
+                        and spotting areas in need of improvement within the digital space. I specializes in Customer
+                        Segmentations, Digital Growth Experiments and providing data-driven insights to drive
+                        business growth
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My abilities</span>
+            <h2 class="section__title">Skills</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Analytics</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Power BI</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MMP</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Excel</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Looker</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">GA</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Front-End Programming</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name"> CSS </h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Js</h3>
+                                    <span class="skills__level"> Advanced</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Flutter</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Tailwind</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">My Experience</span>
+            <h2 class="section__title">A peak into my professional life...</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <img src="https://play-lh.googleusercontent.com/-aLYCmMI57ZPMxyv42B-SlAeL0M-U7MgPWUdgSwMQCslFaxr1X18Gnaez1pdw7koMw"
+                        alt="" class="work__img">
+                    <h3 class="skills__name">CAFU <br>Marketing Analyst</h3>
+                    <span class="skills__level">Jan'2023 to Present</span>
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Marketing Analyst</h3>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Analyze and inform Marketing Team on transactions and in-app user insights
+                                        leveraging several analytics platforms such as
+                                        Firebase, CleverTap, Branch, Google Analytics, and PowerBI.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Maximizing Retention and Reactivation Efforts by developing logical segmentation
+                                        to drive app conversions resulting in
+                                        +75% retention MoM.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Performing analysis on campaigns to understand their impact with respect to
+                                        operational metrics such as AOV, Order per User,
+                                        Acquisitions, Revenue, and Promotion Burn.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Develop Custom Properties on the Customer Engagement Platform (CleverTap) to
+                                        tailor audience segments toward
+                                        campaigns for cross-selling, reactivation, or retention whilst ensuring
+                                        maximized reach and conversions for the campaigns.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <img src="https://www.talabat.com/assets/images/Tlogo-500.png" alt="" class="work__img">
+                    <h3 class="skills__name">Talabat<br>Marketing Specialist</h3>
+                    <span class="skills__level">Jul'2022 to Jan'2023</span>
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Marketing Specialist</h3>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Mapped over 16 marketing channels actual budget and best estimate budget for 8
+                                        markets
+                                        (MENA) to Big Query to produce
+                                        automated Tableau reports.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Liaise with 8 local marketing teams to understand the competitive landscape
+                                        within their respective market, and inform regional
+                                        teams on the same.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Assist with ad hoc analysis of marketing channels and report on significant
+                                        variance on key metrics such as forecasts, acquisitions,
+                                        CPA, frequency, budgets and MAUs.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Support in updating run-rates of acquisitions and orders to compare against
+                                        target/best estimate for all 8 markets in the MENA
+                                        region.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <img src="https://wasila.ae/wp-content/uploads/2021/11/noon-uae.png" alt="" class="work__img">
+                    <h3 class="skills__name">Noon<br>Growth & Development Executive</h3>
+                    <span class="skills__level">Jul'2021 to Jul'2022</span>
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Growth & Development Executive</h3>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Identified and pursued valuable business opportunities to generate new company
+                                        revenue and improve bottom-line profit.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Developed and executed strategic initiatives to implement key changes and
+                                        improvements in business development and marketing
+                                        programs.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Partnered on and built an Acquisition tracker, which allowed for the mapping of
+                                        over 5000 onboarded outlets to the noon Food
+                                        platform (Dubai) in just two quarters.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Customized acquisition tactics based on previous lead data and cross-functional
+                                        team data, resulting in a +50% increase in
+                                        onboarding conversion month over month.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-toshiba-1-282829.png" alt=""
+                        class="work__img">
+                    <h3 class="skills__name">Toshiba ME<br>Marketing Associate</h3>
+                    <span class="skills__level">Feb'2018 to Feb'2020</span>
+                    <span class="services__button">
+                        See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Marketing Associate</h3>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Handle the company’s social media accounts such as Facebook, Linkedin, and
+                                        Instagram.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Create engaging social media content such as posters, interactive posts and
+                                        updates on the company’s work.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Promote the brand positively and engage the social media community whilst
+                                        ensuring proper management of the marketing funnel.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item" data-filter='.web'>Projects</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                    <img src="assets/img/work1.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Burgeroo</h3>
+
+                    <a href="https://zahir-iqbal97.github.io/Portfolio-1/" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/work4.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Netflix Clone</h3>
+
+                    <a href="https://zahir-iqbal97.github.io/netflix-build-youtube2/" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle">Endoresments</span>
+            <h2 class="section__title">Reccomendations</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Abdul Moiz</h3>
+                        <p class="testimonial__description">
+                            Zahir has been an outstanding member of our team at noon Food. His set of highly skilled
+                            analytics and ideas have brought on big success and changes to the team. He is one that can
+                            be constantly relied on with great leadership skills. Zahir has a bright future ahead of him
+                            and will make big footprints in the market further ahead. I would highly recommend zahir for
+                            any team looking for a great leader out there.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Abdel Rahman</h3>
+                        <p class="testimonial__description">
+                            Zahir was a pleasure to work with during my internship at Noon. He was always willing to
+                            share information and provide support when needed. Zahir is an energetic professional who
+                            diligently pursues the best results for both his client and the company. He was a great
+                            contact when I need information about field related topics. Zahir is a self driven and
+                            motivated business development representative. He is focused on customers needs, very
+                            reliable and organized approach to maintain territory result.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name"> Ameera Khalid</h3>
+                        <p class="testimonial__description">
+                            Zahir is one of the most dedicated people whom I’ve worked with. He has full ownership of
+                            any projects that he handles. Always coming up with endless initiatives to enhance process
+                            and team performance based on data capturing and analysis. Excel/Data guru of the team.
+                            Always a thinker, never just a doer. Goes the extra mile to build rapport and statisfaction
+                            with our partners. He is a relentless passionate learner! You will always find him
+                            constantly networking with all departments across the company to gain more knowledge and
+                            grow! A great addition to any team; always adding new perspective and managing various
+                            responsibilities all at once!.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">zahir.mohdiqbal@gmail.com</span>
+
+                            <!-- Insert your original email -->
+                            <a href="mailto:zahir.mohdiqbal@gmail.com" target="_blank" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+971-56-8361237</span>
+
+                            <!-- Insert a real number plus country code -->
+                            <a href="https://api.whatsapp.com/send?phone=+971568361237&text=Hello, more information!"
+                                target="_blank" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-messenger contact__card-icon'></i>
+                            <h3 class="contact__card-title">Messenger</h3>
+                            <span class="contact__card-data">user.fb123</span>
+
+                            <!-- Insert your brand name or profile -->
+                            <a href="https://m.me/zahir" target="_blank" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Write me your project</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Names</label>
+                            <input type="text" placeholder="Insert your name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Mail</label>
+                            <input type="email" placeholder="Insert your email" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Project</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your project"
+                                class="contact__form-input"></textarea>
+                        </div>
+
+                        <button class="button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Zahir</h1>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#testimonial" class="footer__link">Endorsements</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Zahir. All rigths reserved
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
